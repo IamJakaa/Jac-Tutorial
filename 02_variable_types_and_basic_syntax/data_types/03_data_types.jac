@@ -1,5 +1,4 @@
-import { Any } from "jac";
-
+# Data Types in Jac
 with entry{
     # 1 Intergers
     #An integer is a whole number (without a decimal point). In Jac, you declare integers using the int type.
@@ -23,15 +22,6 @@ with entry{
     #A boolean represents a value that can be either true or false. In Jac, you declare booleans using the bool type.
     is_enrolled: bool = true;
     print(f"Is enrolled: {is_enrolled}");
-
-    #For these situations, Jac provides the Any type similar to Python's dynamic typing.
-
-    grade_data: Any = 95;  # Initially an integer
-    print(f"Grade as number: {grade_data}");
-    
-
-    grade_data: Any = "A";  # Now a string
-    print(f"Grade as letter: {grade_data}");
-    
+ 
 
 }
