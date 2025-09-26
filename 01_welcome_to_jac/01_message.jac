@@ -1,3 +1,3 @@
 with entry {
-    std.out("Welcome to Jac!");
+    print("Welcome to Jac!");
 }
